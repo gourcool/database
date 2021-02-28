@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is the gourav aathnere</h1>
+    <form action="/quotes" method="POST">
+        <input type="text" placeholder="name" name="name"><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="text" placeholder="Contact" name="contact"><br>
+        <input type="date" id="start" name="date"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+       <br>
+       <label for="account">Choose account type:</label>
+
+       <select name="account" id="cars">
+       <option value="Saving account">savings Accoount</option>
+       <option value="Cureent account">Cureent account</option>
+       <option value="FD account">FD account</option>
+       <option value="special account">special account</option>
+       </select><br>
+       <input type="text" placeholder="Address" name="address"><br>
+       <label for="email">Enter your email:</label>
+       <input type="email" id="email" name="email"><br>
+       <label for="pwd">Password:</label>
+       <input type="password" id="pwd" name="pwd">
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
